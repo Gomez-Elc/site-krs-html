@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonte montserrat, import do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .conteudo {
+        flex: 1;
+      }
+
+      .footer-fixed {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 10px;
+        text-align: center;
+        z-index: 10; /* Garante que o footer fique sobre o conteúdo */
+      }
+    </style>
+
+    <title>KRS APICE</title>
+  </head>
+  <body style="background-color: #bfd2ee">
+    <div class="wrapper">
+      <div class="conteudo">
+        <header
+          class="mb-auto"
+          style="color: #bfd2ee; background-color: #2b52a0"
+        >
+          <div class="d-flex w-100 h-auto p-3 mx-auto flex-column">
+            <nav class="navbar" style="color: #bfd2ee">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                  <img src="imgs/logo.jpeg" width="250" />
+                </a>
+                <div class="d-flex">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    style="color: #bfd2ee"
+                    ><strong>inicio</strong></a
+                  >
+                  <a
+                    class="nav-link"
+                    href="sobre.html"
+                    style="color: #bfd2ee"
+                    ><strong>Empresa</strong></a
+                  >
+                  <a
+                    class="nav-link"
+                    href="servicos.html"
+                    style="color: #bfd2ee"
+                    ><strong>Serviços</strong></a
+                  >
+                  <a
+                    class="nav-link"
+                    href="contatos.html"
+                    style="color: #bfd2ee"
+                    ><strong>Contatos</strong></a
+                  >
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        <main>
+
+<!-- container imagem de capa -->
+<div class="container-fluid" style="color: #2b52a0">
+  <div class="d-grid gap-3">
+    <div class="p-2">
+      <div class="card border-0" style="background-color: black">
+        <img
+          src="imgs/cerrado_ilu02.jpg"
+          class="img-fluid d-flex mx-auto flex-column"
+          width="900"
+        />
+        <div class="card-img-overlay">
+          <div style="width: 450px; margin-top: 25px; background: #000000e8">
+            <h1 class="card-title" style="font-size: 72px;">KRS ÁPICE</h1>
+            <p class="card-text" style="font-size: 20px;">SISTEMAS ELETRICOS E INSTRUMENTAÇÃO</p>
+            <p class="card-text">
+              <a class="btn btn-primary" href="#ponto-inicio" role="button">Leia Mais!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container resumos (historia/serviços) -->
+<div class="container-fluid" style="color: #2b52a0">
+  <div id="ponto-inicio"
+    class="d-grid gap-3 flex-column"
+    style="margin-left: 80px; margin-right: 80px"
+  >
+    <!-- historia -->
+    <div class="p-4">
+      <div class="card border-0" style="background-color: #bfd2ee">
+        <div class="row">
+          <div class="col-md-4 text-end">
+            <div class="card-body rounded-circle">
+              <img
+                src="imgs/logo_white_2a.png"
+                class="img-fluid rounded-circle"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h3 class="card-title"><strong>Nossa Historia</strong></h3>
+              <p class="card-text">
+                Fundada em 1994, a KRS ÁPICE Sistemas Elétricos e Instrumentação
+                LTDA, é focada no desenvolvimento de projetos industriais,
+                atuando nas áreas de elétrica, instrumentação e automação . Com
+                mais de 30 anos de experiência, a KRS se especializou no
+                fornecimento de soluções para projetos industriais, desde as
+                etapas iniciais, até a partida da planta.
+              </p>
+              <p class="card-text">
+                <a class="btn btn-primary" href="sobre.html" role="button"
+                  >Mais!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- serviços -->
+    <div class="p-4">
+      <div class="card border-0" style="background-color: #bfd2ee">
+        <div class="row">
+          <div class="col">
+            <div class="card-body">
+              <h3 class="card-title"><strong>Serviços</strong></h3>
+              <p class="card-text">
+                Possuímos soluções que podem ajudar sua empresa em todas as
+                fases do projeto, oferecemos: </pbr />
+                &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; Auxilio na elaboração de
+                propostas técnicas e comerciais; <br />
+                &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; Detalhamento de projetos eletricos e de
+                instrumentação;<br />
+                &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; Apoio na elaboração de documentos e pareceres técnicos;<br />
+                &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; Inspeções e testes de equipamentos e sistemas;<br />
+                &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; Comissionamento e partida assistida.
+              </p>
+              <p class="card-text">
+                <a class="btn btn-primary" href="servicos.html" role="button"
+                  >Mais!</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imgs/bornes_zoom.jpg"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container estatisticas -->
+<div class="container-fluid" style="color: #2b52a0">
+  <div class="d-grid gap-3">
+    <div class="p-4">
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-6" style="width: 250px">
+          <div class="card border-0" style="background-color: #bfd2ee">
+            <div class="card-body">
+              <h2 class="card-title"><strong>31</strong></h2>
+              <p class="card-text">ANOS DE EXPERIENCIA</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6" style="width: 250px">
+          <div class="card border-0" style="background-color: #bfd2ee">
+            <div class="card-body">
+              <h2 class="card-title"><strong>+150</strong></h2>
+              <p class="card-text">PROJETOS EXECUTADOS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container rede/fotos -->
+<div class="container-fluid" style="color: #2b52a0">
+  <div class="d-grid gap-3">
+    <div class="p-4">
+      <div class="row row-cols-1 row-cols-md-3 g-2">
+        <!-- links -->
+        <div class="col">
+          <div class="card border-0 justify-content-center text-center">
+            <div class="d-grid gap-3">
+              <div class="p-4" style="background-color: #bfd2ee">
+                <div>
+                  <h3><strong>Nossos Contatos</strong></h3>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/krs-%C3%A1pice-43abb3366/" target="_blank"
+                    ><img
+                      src="icones/icons8-linkedin-48.png"
+                  /></a>
+                  <a href="https://www.youtube.com/@krsapice" target="_blank"
+                    ><img
+                      src="icones/icons8-youtube-48.png"
+                  /></a>
+                  <a href="https://www.instagram.com/krsapice/" target="_blank"
+                    ><img
+                      src="icones/icons8-instagram-48.png"
+                  /></a>
+                  <a href="https://wa.me/5511930743037" target="_blank"
+                    ><img
+                      src="icones/icons8-whatsapp-48.png"
+                  /></a>
+                  <a href="contatos.html"
+                    ><img src="icones/icons8-mais-48.png"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/sala_azul.JPEG"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/bombas_dos.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/trafo_01.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/poco_bombas2.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/se_navis.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/tr15_revit.JPG"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/remota_navis.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img
+              src="imgs/leitos.jpg"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        </main>
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"
+        ></script>
+
+        </div>
+      <footer
+        class="mt-auto text-center"
+        style="color: #bfd2ee; background-color: #2b52a0"
+      >
+        <div class="d-grid gap-3">
+          <div class="p-2" style="font-size: 12px">
+            <p>
+              Todos os direitos reservados a KRS ÁPICE SISTEMAS ELETRICOS E
+              INSTRUMENTAÇÃO.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
